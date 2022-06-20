@@ -30,33 +30,3 @@ $doubleNumbers = array_map('double', $numbers);
 print_r($doubleNumbers);
 
 */
-
-
-/*
-// Loop
-
-$numbersToDouble = [2, 5, 100];
-$result = [];
-
-foreach ($numbersToDouble as $num) {
-    $result[] = $num * 2;
-}
-
-print_r($result) . PHP_EOL;
-
-var_dump($result) . PHP_EOL;
-*/
-
-/*
-//NULL
-$nums = [11, 22, 33];
-
-function double(array $nums)
-{
-    array_map(function ($num) {
-        return $num * 2;
-    }, $nums);
-}
-
-var_dump(double($nums)); // NULL
-*/
