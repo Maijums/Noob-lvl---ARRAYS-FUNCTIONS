@@ -20,29 +20,3 @@ $neatNames = array_map('ucwords', $lowerNames);
 
 print_r($neatNames);
 
-
-
-
-
-/*
-
-$lowerCase = array_map(function ($name) {
-    return strtolower($name);
-}, $messyNames);
-
-
-// Display the content of array:
-
-foreach( $lowerCase as $name)
-    echo $name . "\n";
-
-*/
-
-
-
-
-
-
-
-
-
