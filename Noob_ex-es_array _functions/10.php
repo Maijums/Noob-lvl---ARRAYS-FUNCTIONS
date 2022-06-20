@@ -35,9 +35,6 @@ print_r($processedNumbers);
 
 
 
-
-
-
 /*
 
 $isNotInteger = array_map(function($num) {
@@ -50,6 +47,7 @@ $isNotInteger = array_map(function($num) {
 
 print_r($isNotInteger);
 */
+
 /*
 $a = 0;
 function isInteger(int $a) {
@@ -70,6 +68,7 @@ $squareRoot = array_map(function ($int) {
 
 print_r($squareRoot);
 */
+
 /*
 $sqr = sqrt(4);
 
@@ -93,11 +92,5 @@ $squareRoot = array_map(function ($int) {
 
 print_r($squareRoot);
 */
-    /*
 
-
-
-print_r($squareRoot);
-*/
-//$processedIntegers = [$squareRoot];
 
