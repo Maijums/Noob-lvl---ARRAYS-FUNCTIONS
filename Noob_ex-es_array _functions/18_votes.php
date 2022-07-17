@@ -40,11 +40,13 @@ $voters = [
 
 $votes = array_column($voters, 'voted');
 
-print_r($votes);
+$search = 'true';
+$replace = '1';
+array_walk($votes,
+    function (&$v) use ($search, $replace){
+        $v = str_replace($search, $replace, $v);
+    }
+);
 
-
-$totalVotes = (array_count_values($votes));
-
-
-print_r($totalVotes);
+echo (array_count_values($votes))[1] . PHP_EOL;
 
