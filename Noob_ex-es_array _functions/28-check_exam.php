@@ -36,8 +36,6 @@ function checkExam(array $a, array $answers)
 
             $wrongAnswers = array_filter($wrongAnswers, static function ($element) {
                 return $element !== "";
-                //                   ↑
-                // Array value which you want to delete
             });
 
         }
